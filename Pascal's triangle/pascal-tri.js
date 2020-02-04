@@ -3,6 +3,7 @@
  * @return {number[][]}
  */
 var generate = function(numRows) {
+  if (numRows === 0) return [];
   matrix = [[1]];
   for (let row = 1; row <= numRows; row++) {
     matrix[row] = [1];
