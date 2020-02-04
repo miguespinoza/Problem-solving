@@ -1,6 +1,9 @@
 /**
  * @param {number} numRows
  * @return {number[][]}
+ *
+ * time O(n^2)
+ * space O(n^2)
  */
 var generate = function(numRows) {
   if (numRows === 0) return [];
