@@ -10,7 +10,7 @@ var sortColors = function(nums) {
     let t= null;
     let leftTwo = nums.length-1;
     let i = 0;
-    while(i < leftTwo){
+    while(i <= leftTwo){
         switch(nums[i]){
             case 0: 
                 t = nums[rightZero];
@@ -33,7 +33,7 @@ var sortColors = function(nums) {
     
 };
 
-console.log(sortColors([2,0,2,1,1,0,2]))
+console.log(sortColors([2,0,1]))
 
 /**
  * The use of multiple pointers is key for this type of problems
